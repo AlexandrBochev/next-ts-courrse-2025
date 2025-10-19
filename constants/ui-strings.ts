@@ -8,6 +8,8 @@ export const UI = {
   ],
   TITLES: {
     WELCOME: "Welcome to Next TS Course",
+    hooks: "React Hooks Demonstration",
+    projects: "Projects Showcase",
   },
   DESCRIPTIONS: {
     INTRO: "This is a sample application to demonstrate Next.js with TypeScript.",
@@ -68,5 +70,11 @@ export const METADATA = {
   HOME: {
     title: UI.TITLES.WELCOME,
     description: UI.DESCRIPTIONS.INTRO,
+  },
+  HOOKS: {
+    title: UI.TITLES.hooks,
+  },
+  PROJECTS: {
+    title: UI.TITLES.projects,
   },
 }

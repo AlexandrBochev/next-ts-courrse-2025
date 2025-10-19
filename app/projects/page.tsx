@@ -7,9 +7,13 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { METADATA } from "@/constants";
 import { Github } from "lucide-react";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = METADATA.PROJECTS;
 
 export default async function ProjectsPage() {
   const projects = await getProjects();

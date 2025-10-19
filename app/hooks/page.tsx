@@ -8,7 +8,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { METADATA } from "@/constants";
 import { HookType } from "@/schemas";
+import type { Metadata } from "next";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { ComponentType } from "react";
@@ -21,6 +23,8 @@ const getHookCode = async (hookName: HookType["hookName"]) => {
     "utf8"
   );
 };
+
+export const metadata: Metadata = METADATA.HOOKS;
 
 export default async function HooksPage() {
   const hooks = await getHooks();
