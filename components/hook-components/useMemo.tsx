@@ -11,7 +11,9 @@ export const UseMemo = () => {
   const [text, setText] = useState("");
   const [tick, setTick] = useState(0);
 
-  const transformed = useMemo(() => text.trim().toUpperCase(), [text]);
+  const transformed = useMemo(() => {
+    return text.trim().toUpperCase();
+  }, [text]);
 
   return (
     <CardContent>
