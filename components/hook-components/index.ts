@@ -4,7 +4,7 @@ export * from "./UseEffect";
 export * from "./UseLayoutEffect";
 export * from "./UseRef";
 export * from "./UseContext";
-// export * from "./UseMemo";
+export * from "./UseMemo";
 export * from "./UseCallback";
 export * from "./UseTransition";
 export * from "./UseDeferredValue";
