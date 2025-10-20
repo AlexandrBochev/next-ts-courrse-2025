@@ -10,9 +10,12 @@ export const UI = {
     WELCOME: "Welcome to Next TS Course",
     hooks: "React Hooks Demonstration",
     projects: "Projects Showcase",
+    HERO: "Complete React, Next.js & TypeScript Projects Course 2025"
   },
   DESCRIPTIONS: {
     INTRO: "This is a sample application to demonstrate Next.js with TypeScript.",
+    HERO_CONTENT: "This application showcases various React hooks and projects built with Next.js and TypeScript.",
+    HERO_COURSE: "Hands-on React: 25+ Projects Featuring Next.js, TypeScript, Prisma, Zod, Shadcn, Axios, Router 6, Query 5, Redux Toolkit, and More!",
   },
   BUTTONS: {
     add: "Add",
