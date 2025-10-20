@@ -23,8 +23,7 @@ export const UseLayoutEffect = () => {
           {UI.LABELS.openClose(expanded)}
         </Button>
         <Label className="text-xs">
-          {UI.LABELS.height} {height}
-          {UI.UNITS.pixels}
+          {UI.LABELS.height}: {height}{UI.UNITS.pixels}
         </Label>
       </div>
 

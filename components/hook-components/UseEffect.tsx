@@ -19,7 +19,7 @@ export const UseEffect = () => {
   return (
     <CardContent className="flex items-center gap-2">
       <Label className="text-sm">
-        {UI.LABELS.width} {width}px
+        {UI.LABELS.width}: {width}{UI.UNITS.pixels}
       </Label>
     </CardContent>
   );
