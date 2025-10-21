@@ -9,7 +9,6 @@ export * from "./UseCallback";
 export * from "./UseTransition";
 export * from "./UseDeferredValue";
 export * from "./UseId";
-export * from "./UseSyncExternalStore";
 export * from "./UseImperativeHandle";
 export * from "./UseOptimistic";
 export * from "./UseActionState";
